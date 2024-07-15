@@ -90,7 +90,7 @@ function Service() {
           </div>
         </div>
 
-        <img src={ball2} className="absolute -mr-32 -z-10 py-20 right-0" />
+        <img src={ball2} className="absolute opacity-90 -mr-32 -z-10 py-20 right-0" />
       </div>
       <div className="invisible max-lg:hidden rounded-2xl w-[50%] gap-3 items-center hover:scale-105 hover:opacity-95 justify-center shadow-2xl p-10 pb-16 flex bg-slate-50 flex-col">
         <img src={booking} className="max-w-16" />
