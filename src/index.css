@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+button,
+a {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+button:hover,
+a:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
